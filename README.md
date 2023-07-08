@@ -39,6 +39,7 @@ Vb: 0.58314 mV
 ```
 Figure 3 presents a revised schematic that includes the compensation resistor and its position within the circuit. It can be seen that the compensation resistor is connected between pins 4 & 5, with the IN- connection point becoming pin 4. Depending on the mounting configuration, the means in which this resistor can be included into the pressure transducer can vary. Two methods are presented here, PCB mounting (subsection 5.1) and ’deadbug’ mounting (subsection 5.2).
 
+![NPP_Schematic](images/npp301_schematic.png)
 
 ## 5. Packaging and Mounting
 
@@ -48,6 +49,8 @@ available in appendix A. Two mounting options have been explored thus far. Print
 ### 5.1 PCB Mounting
 
 PCB mounting allows for a transducer to be rigidly mounted to a structure with fasteners. Multiple transducers can also be mounted to a single PCB to simplify interconnectivity and maximise measurement density. The SO8 package size and placement of the barb limits the pitch of an array of transducers to 8 mm. A pitch of 10 mm was achieved for the HyMAX oscillating shock impingement study. An example of a transducer mounted to a single PCB is provided in Fig. 4. This arrangement where the transducer body is offset from the horizontal centreline of the PCB is done so to place the barb in the horizontal and vertical centre of the board. Four mounting holes suitable for M1.6 fasteners are used in each corner. On the reverse side of the PCB; pads for soldered wire connections are provided, along with pads for surface mount 0402 size compensation resistors. To ensure a adequate pressure connection between the pressure port of the sensor and the pressure tap on the surface of the model, a BS003 o-ring is used to provide a seal. Geometry for the o-ring groove is provided in appendix B. Typical dimensions of a single transducer mounting PCB is also provided in appendix B.
+
+![NPP_PCB_Mounting](images/pcb_mounting.png)
 
 ### 5.2 Deadbug Mounting
 

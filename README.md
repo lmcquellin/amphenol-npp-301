@@ -53,7 +53,7 @@ PCB mounting allows for a transducer to be rigidly mounted to a structure with f
 
 Deadbug mounting, named due to the appearance of an integrated circuit package body upside down, is the other proposed method for interconnecting and mounting the transducer. This mounting type is the most volumetrically efficient, but is more time consuming the manufacture and mounting into a model is permanent. Instructions to assembly a transducer body with wire is provided in appendix C. Transducer bodies are typically bonded into cavities or against panels using epoxy (or other suitable) adhesive. This is depicted in Fig. 5. When using the barbless ‘A’ package, ensuring concentricity between the pressure tap in the panel and port in the transducer can be achieved by using a machined locating pin to locate the transducer during assembly. When using the barbed ‘B’ package, a countersink in the surface is required to accommodate the barb. This countersink ensures port concentricity during mating.
 
-![NPP_Panel_Mounting](npp_panel_mounting.png)
+![NPP_Panel_Mounting](images/npp_panel_mounting.png)
 
 ## References
 

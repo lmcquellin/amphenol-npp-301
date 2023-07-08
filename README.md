@@ -39,7 +39,7 @@ Vb: 0.58314 mV
 ```
 Figure 3 presents a revised schematic that includes the compensation resistor and its position within the circuit. It can be seen that the compensation resistor is connected between pins 4 & 5, with the IN- connection point becoming pin 4. Depending on the mounting configuration, the means in which this resistor can be included into the pressure transducer can vary. Two methods are presented here, PCB mounting (subsection 5.1) and ’deadbug’ mounting (subsection 5.2).
 
-![NPP_Schematic](images/npp301_schematic.png)
+![NPP_Schematic](images/npp301_compensated_schematic.png)
 
 ## 5. Packaging and Mounting
 

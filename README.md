@@ -1,4 +1,4 @@
-# Use of Amphenol NPP-301 Series Pressure Transducers for Testing in Wind Tunnels
+# Use of Amphenol NPP-301 Series Pressure Transducers for Pressure Measurements
 
 ## 1. Overview
 The NPP-301 series of pressure sensors manufactured by Amphenol Advanced Sensors have demonstrated to be a low cost means of collecting discrete pressure measurements in space constrained locations on wind tunnel models. The transducer is offered in three pressure ranges, 0 – 100 kPa, 0 - 200 kPa, and 0 – 700 kPa.

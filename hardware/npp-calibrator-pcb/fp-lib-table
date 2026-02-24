@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NPP_Calbrator")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/npp_calibrator.pretty")(options "")(descr ""))
+)

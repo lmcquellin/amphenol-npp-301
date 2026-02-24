@@ -462,6 +462,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x08_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
@@ -1091,6 +1193,14 @@
 		)
 	)
 	(no_connect
+		(at 163.83 119.38)
+		(uuid "01ebab80-b050-4105-83b9-a479527885d7")
+	)
+	(no_connect
+		(at 163.83 111.76)
+		(uuid "05700e86-f781-4d29-8741-e688c52362bd")
+	)
+	(no_connect
 		(at 114.3 92.71)
 		(uuid "20b3f5d0-c1e7-4ea5-8a63-b73a64b3c507")
 	)
@@ -1115,8 +1225,16 @@
 		(uuid "79a93d0b-c43d-4162-abdf-0cf11127e0f2")
 	)
 	(no_connect
+		(at 163.83 109.22)
+		(uuid "936f186b-c346-437a-b809-daeb6f265c51")
+	)
+	(no_connect
 		(at 163.83 71.12)
 		(uuid "9cae6e4b-9680-4aea-8ec8-70b3eda631ed")
+	)
+	(no_connect
+		(at 163.83 101.6)
+		(uuid "af411bbe-59db-4fb0-ad3e-ed4e6ed5a3f3")
 	)
 	(no_connect
 		(at 163.83 81.28)
@@ -1235,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 160.02 106.68)
+			(xy 163.83 106.68) (xy 157.48 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1337,13 +1455,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 78.74) (xy 160.02 78.74)
+			(xy 157.48 66.04) (xy 163.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4517d9-b0c2-435e-8d1a-d7cb6c5d6a06")
+	)
+	(wire
+		(pts
+			(xy 163.83 78.74) (xy 157.48 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4072f2f8-f489-4dae-8d86-92a2c1c75f04")
+	)
+	(wire
+		(pts
+			(xy 157.48 116.84) (xy 163.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4947de4c-1203-40fb-bbd2-8d0a6b193968")
 	)
 	(polyline
 		(pts
@@ -1453,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 60.96) (xy 160.02 60.96)
+			(xy 163.83 60.96) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 99.06) (xy 160.02 99.06)
+			(xy 163.83 99.06) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 163.83 104.14)
+			(xy 157.48 104.14) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 163.83 76.2)
+			(xy 157.48 76.2) (xy 163.83 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1758,16 +1896,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 116.84) (xy 160.02 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4b891c-79ac-48fb-a04c-63674f661c9d")
-	)
-	(wire
-		(pts
 			(xy 114.3 97.79) (xy 118.11 97.79)
 		)
 		(stroke
@@ -1775,16 +1903,6 @@
 			(type default)
 		)
 		(uuid "cf112105-0452-4cd0-b7be-21419fcc189c")
-	)
-	(wire
-		(pts
-			(xy 160.02 66.04) (xy 163.83 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfdb4d26-3432-480d-9cf6-87a2828892e5")
 	)
 	(polyline
 		(pts
@@ -1905,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 68.58) (xy 160.02 68.58)
+			(xy 163.83 68.58) (xy 157.48 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 114.3) (xy 163.83 114.3)
+			(xy 157.48 114.3) (xy 163.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2217,7 @@
 		)
 		(uuid "3e26d72e-d06b-4df8-8727-72d8f0c5d30f")
 	)
-	(text "NPPB"
+	(text "NPP-B"
 		(exclude_from_sim no)
 		(at 82.55 94.742 0)
 		(effects
@@ -2139,7 +2257,7 @@
 		)
 		(uuid "48f5b2f2-ac56-438f-8feb-74e53a964e08")
 	)
-	(text "NPPA"
+	(text "NPP-A"
 		(exclude_from_sim no)
 		(at 82.55 84.582 0)
 		(effects
@@ -2180,7 +2298,7 @@
 		)
 		(uuid "94f74563-0c55-42e7-89d6-15bd6373593b")
 	)
-	(text "Notes:\n\n- SOIC16 Test Socket is used to calibrate two NPP gauges simultanously.\n- Pin numbering of X? matches socket pinout which is mapped to NPP pinout.\n- 5 mm banana plug and D15HD connections are used for interfacing."
+	(text "Notes:\n\n- SOIC16 Test Socket is used to calibrate two NPP gauges simultanously.\n- Pin numbering of X? matches socket pinout which is mapped to NPP pinout.\n- DE9 connections are used for interfacing."
 		(exclude_from_sim no)
 		(at 177.038 154.94 0)
 		(effects
@@ -2282,7 +2400,7 @@
 		)
 		(uuid "c43c8141-9ec4-4b49-b93b-ad1cc0d41744")
 	)
-	(text "NPPB"
+	(text "NPP-B"
 		(exclude_from_sim no)
 		(at 132.842 94.488 0)
 		(effects
@@ -2392,7 +2510,7 @@
 		)
 		(uuid "f2a3750b-39a8-4ff0-a5c7-366733a401f5")
 	)
-	(text "NPPA"
+	(text "NPP-A"
 		(exclude_from_sim no)
 		(at 133.096 84.328 0)
 		(effects
@@ -2622,7 +2740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f830436-d70d-4969-b22f-974c1f7508ae")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 281.94 154.9399 0)
 			(effects
 				(font
@@ -2672,7 +2790,7 @@
 		(instances
 			(project "npp_calibrator_pcb"
 				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Socket:SOIC_Socket_16_SOCKET-SOICN-16-1.27"
+		(property "Footprint" "NPP_Calbrator:PA-SOCKET-SOICN-16-1.27"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -2789,6 +2907,396 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2efa7b00-dcbe-4872-9b70-1030fd28bada")
+		(property "Reference" "TP4"
+			(at 151.13 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.924 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbd4e781-ab1f-445e-a8d9-a8300fe51d22")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "303554fa-029e-4de4-b095-4226f989a9e9")
+		(property "Reference" "TP6"
+			(at 151.13 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.178 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad29180c-8c5b-4ab3-97e2-34dc1400a9d8")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57c74d0c-aed3-4531-8c6f-eeb8c3b763ff")
+		(property "Reference" "TP8"
+			(at 151.384 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.178 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ff05b0-ce39-4802-ba70-66cce5357db2")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "599fb92f-b37d-4ba6-83e4-464de475525e")
+		(property "Reference" "TP3"
+			(at 151.384 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.178 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c3136f5-b90e-4a6d-a0bc-26bc3f40f770")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d54bc9d-a518-45e6-9daf-8fc023310aeb")
+		(property "Reference" "TP5"
+			(at 151.13 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.67 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef79fda-59e2-445b-8c66-3cb951f531a6")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b2f8ee8-3e4a-4c28-8dc3-c108164bee3d")
+		(property "Reference" "TP9"
+			(at 151.13 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.924 115.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5065da3-b058-4dd4-8365-0eae761132c8")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:DE9_Plug")
 		(at 171.45 71.12 0)
 		(unit 1)
@@ -2807,7 +3315,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DE9_Plug"
+		(property "Value" "528-3654"
 			(at 176.53 72.3899 0)
 			(effects
 				(font
@@ -2816,7 +3324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -2880,6 +3388,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "881ed35e-a3d4-456f-8a50-5ff3fb6f86aa")
+		(property "Reference" "TP7"
+			(at 151.13 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.178 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1492e01-dbec-4627-84be-ce88d86f2588")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95a521e2-344a-4859-88d6-adc0f85243c8")
+		(property "Reference" "TP2"
+			(at 151.13 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.178 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00b7f04a-95db-43b1-bf0c-4653f5ac8e4c")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 279.4 161.29 0)
 		(unit 1)
@@ -2889,7 +3527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9691614c-28fd-4f0a-9ff4-eba6780d1692")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 281.94 160.0199 0)
 			(effects
 				(font
@@ -2939,7 +3577,7 @@
 		(instances
 			(project ""
 				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2955,7 +3593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3782d44-25b9-40e8-a118-57c5fdc284b1")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 281.94 144.7799 0)
 			(effects
 				(font
@@ -3005,7 +3643,137 @@
 		(instances
 			(project "npp_calibrator_pcb"
 				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
-					(reference "H4")
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a45f3b77-84f8-4982-9541-d0a3e9b434a2")
+		(property "Reference" "TP10"
+			(at 151.13 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.67 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "091bbd83-ba7a-42e6-86de-d693436320dd")
+		)
+		(instances
+			(project "npp_calibrator_pcb"
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6088ca8-a277-4c2c-8506-0ecd58fc0fc8")
+		(property "Reference" "TP1"
+			(at 151.13 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.178 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3924f48-9be7-4e86-9f4c-eaf79fe8c618")
+		)
+		(instances
+			(project ""
+				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3021,7 +3789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e40277ab-61b1-4d80-9952-dbef4898d3b7")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 281.94 149.8599 0)
 			(effects
 				(font
@@ -3071,7 +3839,7 @@
 		(instances
 			(project "npp_calibrator_pcb"
 				(path "/cf17da5b-3198-45d6-961a-9ac89295bcda"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3096,7 +3864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DE9_Plug"
+		(property "Value" "528-3654"
 			(at 176.53 110.4899 0)
 			(effects
 				(font
@@ -3105,7 +3873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+		(property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.40mm"
 			(at 171.45 109.22 0)
 			(effects
 				(font

@@ -179,8 +179,9 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.5
+        0.5,
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -450,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "npp_calibrator_pcb.kicad_pro",
+    "filename": "breakout_pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -595,7 +596,7 @@
   },
   "sheets": [
     [
-      "cf17da5b-3198-45d6-961a-9ac89295bcda",
+      "18a59929-c37a-4e46-8403-e23548171f8b",
       "Root"
     ]
   ],

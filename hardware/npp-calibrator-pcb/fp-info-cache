@@ -1,4 +1,4 @@
-24613766570592393
+24613608739683621
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -567,12 +567,19 @@ Matias ALPS keyswitch ISO enter
 2
 2
 Button_Switch_SMD
-Nidec_Copal_CAS-120A
-Slide Switch, SMD, Nidec CAS series, https://www.nidec-components.com/e/catalog/switch/cas.pdf
-SMD slide switch Nidec CAS 120A 
+Nidec_Copal_CS-4-12YA
+1 pole, 2 contact rotary switch,  CS-4-12YA/CS-4-12XA
+rotary switch
 0
 3
 3
+Button_Switch_SMD
+Nidec_Copal_CS-4-13NA
+1 pole, 3 contact rotary switch,  CS-4-13NA/CS-4-13TA
+rotary switch
+0
+4
+4
 Button_Switch_SMD
 Nidec_Copal_SH-7010A
 4-bit rotary coded switch, J-hook, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
@@ -1253,6 +1260,13 @@ tactile switch kmr2
 5
 3
 Button_Switch_SMD
+SW_Push_1P1T_NO_6x6mm_H9.5mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+Button_Switch_SMD
 SW_Push_1P1T_NO_CK_KMR2
 CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
 tactile switch kmr2
@@ -1295,13 +1309,6 @@ SPST Tactile Switch
 4
 2
 Button_Switch_SMD
-SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm
-tactile push button, 6x6mm, height=5mm, 12V 50mA, https://datasheet.lcsc.com/lcsc/1811151231_HYP--Hongyuan-Precision-1TS009A-1800-5000-CT_C319409.pdf
-tact sw push 6mm silicone rubber
-0
-2
-2
-Button_Switch_SMD
 SW_Push_SPST_NO_Alps_SKRK
 http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
 SMD SMT button
@@ -1316,7 +1323,7 @@ Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.c
 8
 4
 Button_Switch_SMD
-SW_SPDT_CK_JS102011SAQN
+SW_SPDT_CK-JS102011SAQN
 Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
 switch spdt
 0
@@ -1328,13 +1335,6 @@ Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.c
 
 0
 7
-3
-Button_Switch_SMD
-SW_SPDT_REED_MSDM-DT
-Littlefuse 14.73x2.54mm, 175VDC 5W, SPDT Reed Switch MSDM-DT, https://www.littelfuse.com/~/media/electronics/datasheets/reed_switches/littelfuse_reed_switches_mdsm_dt_datasheet.pdf.pdf
-Littlefuse Reed SPDT Switch
-0
-3
 3
 Button_Switch_SMD
 SW_SPST_B3S-1000
@@ -1421,20 +1421,6 @@ Tactile Switch
 3
 3
 Button_Switch_SMD
-SW_SPST_CK_KMS2xxG
-Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, https://www.ckswitches.com/media/1482/kms.pdf
-Switch SPST KMS2
-0
-5
-3
-Button_Switch_SMD
-SW_SPST_CK_KMS2xxGP
-Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm with pegs, https://www.ckswitches.com/media/1482/kms.pdf
-Switch SPST KMS2
-0
-5
-3
-Button_Switch_SMD
 SW_SPST_CK_KXT3
 https://www.ckswitches.com/media/1465/kxt3.pdf
 Switch SPST KXT3
@@ -1471,15 +1457,15 @@ SMD SMT SPST EVQP2
 2
 Button_Switch_SMD
 SW_SPST_EVQP7A
-Light Touch Switch, 2.2 N, https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906
-tactile switch
+Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf
+
 0
 4
 2
 Button_Switch_SMD
 SW_SPST_EVQP7C
-Light Touch Switch, 2.2 N, https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3529s_side.pdf?f_cd=402906
-tactile switch
+Light Touch Switch
+
 0
 4
 2
@@ -1528,27 +1514,6 @@ Tactile Switch
 Button_Switch_SMD
 SW_SPST_PTS645
 C&K Components SPST SMD PTS645 Series 6mm Tact Switch
-SPST Button Switch
-0
-4
-2
-Button_Switch_SMD
-SW_SPST_PTS647_Sx38
-C&K Components SPST SMD PTS647 Series 4.5mm Tact Switch, 3.8mm Height, see https://www.ckswitches.com/media/2567/pts647.pdf
-SPST Button Switch
-0
-4
-2
-Button_Switch_SMD
-SW_SPST_PTS647_Sx50
-C&K Components SPST SMD PTS647 Series 4.5mm Tact Switch, 5.0mm Height, see https://www.ckswitches.com/media/2567/pts647.pdf
-SPST Button Switch
-0
-4
-2
-Button_Switch_SMD
-SW_SPST_PTS647_Sx70
-C&K Components SPST SMD PTS647 Series 4.5mm Tact Switch, 7.0mm Height, see https://www.ckswitches.com/media/2567/pts647.pdf
 SPST Button Switch
 0
 4
@@ -1700,6 +1665,27 @@ SPST button switch Off-On
 0
 2
 2
+Button_Switch_THT
+SW_CuK_JS202011AQN_DPDT_Angled
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+Button_Switch_THT
+SW_CuK_JS202011CQN_DPDT_Straight
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+Button_Switch_THT
+SW_CuK_OS102011MA1QN1_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
 Button_Switch_THT
 SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm
 1x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x4.1mm
@@ -2282,6 +2268,13 @@ IP67 ultra-miniture horizontal
 8
 6
 Button_Switch_THT
+SW_Rotary_C&K_ME00
+
+
+0
+11
+11
+Button_Switch_THT
 SW_SPST_Omron_B3F-40xx
 SW_THT_Tactile_Omron_B3F-40xx, 12x12 mm, Through hole switch from the B3F Family manufactured by Omron,  https://www.omron.com/ecb/products/pdf/en-b3f.pdf
 tactile switch THT button push B3F-4000 B3F-4050 B3F-4005 B3F-4055  
@@ -2308,6 +2301,13 @@ Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/dat
 switch single-pole opposite-side-connection double-throw SPDT würth wurth
 0
 3
+3
+Button_Switch_THT
+SW_Slide_1P2T_CK_OS102011MS2Q
+CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
 3
 Button_Switch_THT
 SW_Slide_SPDT_Angled_CK_OS102011MA1Q
@@ -2400,6 +2400,13 @@ SPDT endstop limit switch vertical hook lever XKB DM1-16UP-1
 0
 3
 3
+Button_Switch_THT
+Wurth_418217270903A
+WS-DITU Compact THT Right Angled with Raised Actuator 2.54 mm, 3 Position
+Switch, Right-Angle, Through-Hole, 2.54 mm
+0
+6
+6
 Buzzer_Beeper
 Buzzer_12x9.5RM7.6
 Generic Buzzer, D12mm height 9.5mm with RM7.6mm
@@ -3171,20 +3178,6 @@ capacitor handsolder
 2
 2
 Capacitor_SMD
-C_1808_4520Metric
-Capacitor SMD 1808 (4520 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: datasheet page 3, https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_en.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-Capacitor_SMD
-C_1808_4520Metric_Pad1.72x2.30mm_HandSolder
-Capacitor SMD 1808 (4520 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: datasheet page 3, https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_en.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
-Capacitor_SMD
 C_1812_4532Metric
 Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
@@ -3213,15 +3206,15 @@ capacitor handsolder
 2
 2
 Capacitor_SMD
-C_2220_5750Metric
-Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+C_2220_5650Metric
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
 capacitor
 0
 2
 2
 Capacitor_SMD
-C_2220_5750Metric_Pad1.97x5.40mm_HandSolder
-Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+C_2220_5650Metric_Pad1.97x5.40mm_HandSolder
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
 capacitor handsolder
 0
 2
@@ -68298,6 +68291,13 @@ threaded screw
 0
 4
 1
+NPP_Calbrator
+PA-SOCKET-SOICN-16-1.27
+
+
+0
+16
+16
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -89907,13 +89907,6 @@ MiniMELF Resistor
 0
 2
 2
-Resistor_SMD
-R_Shunt_Isabellenhuette_BVR4026
-4-Wire Shunt, SMD 4026, https://www.isabellenhuette.de/fileadmin/Daten/Praezisionswiderstaende/Datenblaetter/BVR.PDF
-kelvin-connection
-0
-4
-4
 Resistor_SMD
 R_Shunt_Ohmite_LVK12
 4 contact shunt resistor
